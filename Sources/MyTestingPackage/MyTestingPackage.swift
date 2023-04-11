@@ -1,6 +1,6 @@
 import Foundation
  
-public struct MyTestingPackage {
+public struct TestingPackage {
     
     init() {}
     
