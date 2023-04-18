@@ -16,6 +16,8 @@ public class LoginViewController: UIViewController {
         }
     }
     
+    public init() {}
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
 
