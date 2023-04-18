@@ -17,11 +17,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="8df-QA-El9">
-                    <rect key="frame" x="16" y="34" width="354" height="132"/>
+                    <rect key="frame" x="16" y="300" width="354" height="114.33333333333331"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPZ-TD-saS">
                             <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
@@ -43,7 +43,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvH-B9-bbF">
-                            <rect key="frame" x="0.0" y="80" width="354" height="52"/>
+                            <rect key="frame" x="0.0" y="80" width="354" height="34.333333333333343"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="354" id="B4O-fn-u2x"/>
                                 <constraint firstAttribute="height" constant="52" id="wXJ-Ho-Fda"/>
@@ -66,11 +66,10 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="8df-QA-El9" secondAttribute="bottom" constant="34" id="ZmR-XL-anJ"/>
-                <constraint firstItem="8df-QA-El9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="34" id="mDs-7c-o0a"/>
+                <constraint firstItem="8df-QA-El9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="300" id="mDs-7c-o0a"/>
                 <constraint firstItem="8df-QA-El9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="sgY-l2-Yfl"/>
                 <constraint firstAttribute="trailing" secondItem="8df-QA-El9" secondAttribute="trailing" constant="23" id="zuP-a2-1d0"/>
             </constraints>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="35.877862595419849" y="19.718309859154932"/>
         </view>
     </objects>
