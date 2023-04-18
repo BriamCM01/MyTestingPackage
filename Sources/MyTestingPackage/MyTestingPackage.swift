@@ -14,7 +14,7 @@ public struct TestingPackage {
 }
  
 extension String {
-    public func localized(comment: String = "") -> String {
+    public func localized(comment: String = "Estamos probado foo") -> String {
         return NSLocalizedString(self, comment: comment)
     }
 }

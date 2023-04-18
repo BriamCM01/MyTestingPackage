@@ -3,8 +3,8 @@ import XCTest
 
 final class MyTestingPackageTests: XCTestCase {
     func testExample() {
-        XCTAssertEqual(MyTestingPackage().localizedString("Hello, World!"), "Hello, World!")
-        XCTAssertEqual(MyTestingPackage().joinAttributedStrings(
+        XCTAssertEqual(TestingPackage().localizedString("Hello, World!"), "Hello, World!")
+        XCTAssertEqual(TestingPackage().joinAttributedStrings(
             NSAttributedString(string: "Hello, "),
             NSAttributedString(string: "World!"))
             .string, "Hello, World!")
