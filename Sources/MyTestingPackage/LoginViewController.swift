@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class LoginViewController: UIViewController {
+public class LoginViewController: UIViewController {
     @IBOutlet private weak var btnLogin: UIButton!
     @IBOutlet private weak var btnRegister: UIButton! {
         didSet {
