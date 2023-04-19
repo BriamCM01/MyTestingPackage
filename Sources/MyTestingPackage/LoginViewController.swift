@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public class LoginViewController: UIViewController {
+    
     @IBOutlet private weak var btnLogin: UIButton!
     @IBOutlet private weak var btnRegister: UIButton! {
         didSet {
@@ -28,11 +29,13 @@ public class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Me inicializo correctamente..")
     }
 
     private func setupUI() {
         btnRegister.layer.borderColor = UIColor(red: 74, green: 0, blue: 103, alpha: 1).cgColor
     }
+    
     @IBAction func didTouchLogin(_ sender: Any) {
         print("Aqui navegamos al iniciar sesion.")
     }
