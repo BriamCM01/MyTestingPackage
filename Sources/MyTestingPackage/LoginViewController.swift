@@ -17,8 +17,9 @@ public class LoginViewController: UINavigationController {
         }
     }
     
-    public init() {
-        super.init(nibName: nil, bundle: nil)
+    
+    public init(nibName: String) {
+        super.init(nibName: nibName, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
