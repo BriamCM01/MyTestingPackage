@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class LoginViewController: UIViewController {
+public class LoginViewController: UINavigationController {
     
     @IBOutlet private weak var btnLogin: UIButton!
     @IBOutlet private weak var btnRegister: UIButton! {
@@ -27,7 +27,7 @@ public class LoginViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Login"
         // Do any additional setup after loading the view.
         print("Me inicializo correctamente..")
     }
