@@ -9,8 +9,8 @@ import UIKit
 
 final public class StartLoginViewController: UIViewController {
 
-    public init() {
-        super.init(nibName: nil, bundle: nil)
+    public init(mainBundle: Bundle) {
+        super.init(nibName: nil, bundle: mainBundle)
     }
     
     required init?(coder: NSCoder) {
