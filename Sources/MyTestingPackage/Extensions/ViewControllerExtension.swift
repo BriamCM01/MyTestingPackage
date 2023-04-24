@@ -17,7 +17,7 @@ extension UIViewController {
             let className = String(describing: self)
             
             print("Este es el path: \(path)/\(className)" )
-            let packagePath = path.appending("/MyTestingPackage/MyTestingPackage/Sources/MyTestingPackage/LoginController/StartLoginViewController.swift")
+            let packagePath = path.appending("/\(className)")
             let bundlePackage = Bundle(path: packagePath)
             let storyBoard = UIStoryboard(name: storyB, bundle: bundlePackage)
             
