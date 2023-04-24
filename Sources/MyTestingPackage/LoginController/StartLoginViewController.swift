@@ -9,7 +9,7 @@ import UIKit
 
 final public class StartLoginViewController: UIViewController {
 
-    init() {
+    public init() {
         super.init(nibName: nil, bundle: nil)
     }
     
