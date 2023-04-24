@@ -8,6 +8,9 @@
 import Foundation
 
 public class InitModule {
+    
+    public init() {}
+    
     public class func present() -> StartLoginViewController? {
         let vc = StartLoginViewController.instanceFrom(storyboard: "Main") as? StartLoginViewController
         return vc
