@@ -15,7 +15,6 @@ final public class StartLoginViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        fatalError("init(coder:) has not been implemented")
     }
     
     public override func viewDidLoad() {
