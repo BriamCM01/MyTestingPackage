@@ -17,10 +17,11 @@ extension UIViewController {
             let className = String(describing: self)
             
             
-            let packagePath = path.appending("/\(className)")
+            let packagePath = path.appending("/MyTestingPackage_MyTestingPackage.bundle")
+            print("Este es el package path: \(packagePath)" )
             
-            let bundlePackage = Bundle(path: path)
-            print("Este es el bundle: \(bundlePackage?.bundlePath)" )
+            let bundlePackage = Bundle(path: packagePath)
+            
             let storyBoard = UIStoryboard(name: storyB, bundle: bundlePackage)
             
             
