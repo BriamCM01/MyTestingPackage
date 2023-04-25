@@ -18,12 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN7-NL-VhA">
-                                <rect key="frame" x="19" y="347" width="354" height="50"/>
+                                <rect key="frame" x="23" y="319" width="354" height="64"/>
                                 <color key="backgroundColor" red="0.29033770910000001" green="0.0" blue="0.40208773269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="354" id="T1e-6i-svc"/>
-                                    <constraint firstAttribute="height" constant="50" id="xPv-uX-4ml"/>
-                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="INICIAR SESIÓN"/>
@@ -40,17 +36,36 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="IN7-NL-VhA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="288" id="345-Dc-ROc"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IN7-NL-VhA" secondAttribute="bottom" constant="421" id="6aC-qh-qL5"/>
-                            <constraint firstItem="IN7-NL-VhA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="19" id="d17-u5-5ES"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IN7-NL-VhA" secondAttribute="trailing" constant="20" id="mb1-LT-uZd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IN7-NL-VhA" secondAttribute="bottom" constant="435" id="JXf-Sy-nAp"/>
+                            <constraint firstItem="IN7-NL-VhA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="216" id="KhW-pB-BI0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IN7-NL-VhA" secondAttribute="trailing" constant="16" id="pHe-to-88K"/>
+                            <constraint firstItem="IN7-NL-VhA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="23" id="tVb-Me-tw4"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dq5-cD-YW3"/>
                     <connections>
                         <outlet property="view" destination="5EZ-qb-Rvc" id="aPf-wc-agF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.59541984732823" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0um-O1-rUK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W1p-9k-8hz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2rC-su-0iQ">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="hRA-f1-CV9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjW-IW-Ra9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
         </scene>
