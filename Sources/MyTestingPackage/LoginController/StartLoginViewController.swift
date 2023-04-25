@@ -7,7 +7,7 @@
 
 import UIKit
 
-final public class StartLoginViewController: UIViewController {
+final public class StartLoginViewController: UINavigationController {
 
     public init() {
         super.init(nibName: nil, bundle: nil)
