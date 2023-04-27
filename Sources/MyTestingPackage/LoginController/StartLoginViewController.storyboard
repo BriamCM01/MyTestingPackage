@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN7-NL-VhA">
-                                <rect key="frame" x="19" y="347" width="354" height="50"/>
+                                <rect key="frame" x="19" y="347" width="354" height="150"/>
                                 <color key="backgroundColor" red="0.29033770910000001" green="0.0" blue="0.40208773269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="354" id="T1e-6i-svc"/>
-                                    <constraint firstAttribute="height" constant="50" id="xPv-uX-4ml"/>
+                                    <constraint firstAttribute="height" constant="150" id="xPv-uX-4ml"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -41,7 +41,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="IN7-NL-VhA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="288" id="345-Dc-ROc"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IN7-NL-VhA" secondAttribute="bottom" constant="421" id="6aC-qh-qL5"/>
                             <constraint firstItem="IN7-NL-VhA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="19" id="d17-u5-5ES"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IN7-NL-VhA" secondAttribute="trailing" constant="20" id="mb1-LT-uZd"/>
                         </constraints>
