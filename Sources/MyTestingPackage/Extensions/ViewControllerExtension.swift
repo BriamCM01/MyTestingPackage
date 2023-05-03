@@ -8,8 +8,8 @@
 import UIKit
 
 
-extension UIViewController {
-    
+public extension UIViewController {
+
     class func instanceFrom(storyboard storyB: String) -> UIViewController {
         if let path = Bundle.main.resourcePath {
             
